@@ -153,7 +153,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="underTest/hip|underTest/_4gsim|underTest/wimax|underTest/Ieee80211|underTest/nodes/hip|applications/voipstream|transport/tcp_nsc|linklayer/ieee8021d|nodes/Ieee8021d|applications/voiptool|transport/tcp_lwip" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="underTest/nodes/hip|applications/voipstream|underTest/_4gsim|transport/tcp_nsc|underTest/Ieee80211|linklayer/ieee8021d|nodes/Ieee8021d|underTest/hip|applications/voiptool|transport/tcp_lwip|underTest/wimax" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -304,7 +304,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="underTest/hip|underTest/_4gsim|underTest/wimax|underTest/Ieee80211|underTest/nodes/hip|applications/voipstream|transport/tcp_nsc|linklayer/ieee8021d|nodes/Ieee8021d|applications/voiptool|transport/tcp_lwip" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src"/>
+						<entry excluding="underTest/nodes/hip|applications/voipstream|underTest/_4gsim|transport/tcp_nsc|underTest/Ieee80211|linklayer/ieee8021d|nodes/Ieee8021d|underTest/hip|applications/voiptool|transport/tcp_lwip|underTest/wimax" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
