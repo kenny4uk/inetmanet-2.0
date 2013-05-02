@@ -20,7 +20,7 @@ package inet.linklayer.ieee80211;
 
 import inet.base.IHook;
 import inet.linklayer.IWirelessNic;
-import inet.linklayer.ieee80211.mac.Ieee80211Mac;
+import inet.linklayer.ieee80211.mac.Ieee80211MacWithRA;
 import inet.linklayer.ieee80211.mgmt.IIeee80211Mgmt;
 import inet.linklayer.ieee80211.mgmt.Ieee80211AgentSTA;
 import inet.linklayer.ieee80211.radio.Ieee80211Radio;
@@ -60,7 +60,7 @@ module Ieee80211Nic like IWirelessNic
             parameters:
                 @display("p=96,136;q=wlanDataQueue");
         }
-        mac: Ieee80211Mac {
+        mac: Ieee80211MacWithRA {
             parameters:
                 opMode = opMode;
                 bitrate = bitrate;
