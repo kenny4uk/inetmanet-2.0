@@ -2993,7 +2993,7 @@ double Ieee80211MacWithRA::Ec(double speed, double rate, double packet_length)
 
     /*
      *  Effect of the distance and rate are modelled according
-     *  to Free Space Path Loss Model. In this model PER propotional
+     *  to Free Space Path Loss Model. In this model PER proportional
      *  to the square of distance and frequency.
      *  Which means if distance and bit-rate increase by factor of two,
      *  then PER will increase by factor of 16.
