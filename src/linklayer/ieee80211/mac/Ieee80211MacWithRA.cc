@@ -484,8 +484,7 @@ void Ieee80211MacWithRA::configureAutoBitRate()
         cModule *module = simulation.getModuleByPath("accessPoint");
         if(module)
         {
-            apCoord = MobilityAccess().get(module)->getCurrentPosition();// MObilityAccess is a utility that helps gets the position of the hosts apart from the mobility type,g
-            3ives access to the IMobility submodule.
+            apCoord = MobilityAccess().get(module)->getCurrentPosition();// MObilityAccess is a utility that helps gets the position of the hosts apart from the mobility type,gives access to the IMobility submodule.
         }
 
         cModule *module_cli = simulation.getContextModule();
@@ -618,7 +617,7 @@ void Ieee80211MacWithRA::handleSelfMsg(cMessage *msg)
         //1. Actualising the situation of the vehicles
         //2.
         previous_bitrateIdx = rateIndex;
-        alpha_weight = acarsPER->getAlpha(speed);
+        alpha_weight = carsPER->getAlpha(speed);
         best_bitrate = cars_getrate(speed,alpha_weight,packet_length);
         setBitrate(best_bitrate);
 
